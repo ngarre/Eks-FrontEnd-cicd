@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ] # Se ejecuta workflow al hacer pull request a main
 env:
-  EKS_CLUSTER_NAME: AA2_natalia
+  EKS_CLUSTER_NAME: AA2-natalia
   AWS_REGION: us-east-1
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
         flavor: |
           latest=false
         tags: |
-          type=raw,value=2.0 
+          type=raw,value=3.0 
 
     - name: Build and Push to Docker Hub
       id: docker_build
