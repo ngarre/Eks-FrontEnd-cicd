@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: temperaturas-frontend
-        image: ngarre/aa2-frontend:3.0
+        image: ngarre/aa2-frontend:4.0
         ports:
         - containerPort: 3001
         env: 
